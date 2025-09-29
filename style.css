@@ -1,0 +1,112 @@
+@font-face {
+    font-family: transformers;
+    src: url(./assets/Transformers\ Movie.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;  /* center the container horizontally */
+    background: #f5f5f5;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    width: 85%;               
+    max-width: 900px;    
+    display: flex;    
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+header .intro {
+    background: #0C354D;       /* dark blue */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+header .intro h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: transformers;
+    text-transform: uppercase;
+    margin: 0;
+    color: #00ffe5; /* Base neon text color */
+
+    /* Neon Glow */
+   /* Reduced Glow */
+    text-shadow: 0 0 3px #00ffe5,
+                 0 0 6px #00e5ff,
+                 0 0 12px #00d9ff;
+}
+
+
+header .intro h4 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 2000px;
+    margin: 30px auto;
+}
+
+
+.section {
+    background: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section:hover {
+    transform: translateY(-5px) scale(1.02);   
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.hello{
+    font-size: 23px;
+    color: #6a6969;
+}
+
+.attri{
+    border: 1px solid white;
+    background: white;
+    width: 60%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 19PX;
+}
+
+.divi{
+    width: 70%;
+}
+
+
+.section h3{ 
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.education { background: #e0f0ff; }
+.skills { background: #fff3cd; }
+.projects { background: #d4edda; }
+.contact-me { background: #c8c0d1; }
+
+
+
+.section h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #333;
+}
